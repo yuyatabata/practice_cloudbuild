@@ -1,7 +1,4 @@
 steps:
 - name: 'alpine'
   args: ['echo', '${_ENVIRONMENT}']
-- name: 'gcr.io/cloud-builders/yarn'
-  args: ['install']
-- name: 'gcr.io/cloud-builders/gcloud'
-  args: ['app', 'deploy', '1', 'app.yaml']
+
